@@ -1,0 +1,389 @@
+/***********************************************************************************************/
+/* Custom Styles */
+/***********************************************************************************************/
+body {
+  background-image: url('../img/custom/testbkg.jpg');
+  padding-top: 110px;
+}
+
+/* MINE */
+p {
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    color: #423436;
+    line-height: 1.3em;
+}
+
+a {
+    color: #eb1949;
+}
+
+a .hover {
+    color: #38409a;
+}
+
+h1 {
+    padding-left:25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Varela Round', sans-serif;
+    color:#38409a;
+}
+
+h1color {
+    color: #d49996;
+}
+
+h1 small {
+    color:#9c9a95; 
+}
+
+
+hr {
+  background-image: url('../img/custom/hr-image.png');
+  background-repeat: no-repeat;
+  border-top: none;
+  border-bottom: none;
+  height:15px;   
+}
+
+.muted {
+    color:#8c8caa;
+    font-size: 12px;
+}
+
+.lead {
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: auto;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #eb1949;
+}
+
+/* fixing shit on navbar I messed up */
+
+
+/* background colour of nav links */
+
+.navbar .nav > li {
+  float: left;
+  margin-top: 15px;
+  background-color: #fffbf4; 
+}
+
+/* affects nav links */
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #38409a;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  font-size: 1.1em;
+}
+
+/* colour and bkgrd of the active link */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #eb1949;
+  text-decoration: none;
+  background-color: #fde4e3;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    color:#eb1949;
+}
+
+/* changed the colour of the navbar. must remove the bkgrd gradients */
+.navbar-inner {
+  min-height: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fffbf4;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #fde4e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+    opacity:0.9;
+filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+/* bottom border width */
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  border-width: 0 0 3px;
+}
+
+
+/* adjusted margin height of nav elements */
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding:5px;
+  background-color: #fde4e3;
+    border: 1px solid #38409a;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-polaroid {
+  padding: 4px;
+  background-color: #fde4e3;
+  border: 1px solid #38409a;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin: 0 0 20px;
+  list-style: none;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+  *display: inline;
+  text-shadow: 0 1px 0 #ffffff;
+  *zoom: 1;
+}
+
+.breadcrumb > li > .divider {
+  padding: 0 5px;
+  color: #ccc;
+}
+
+.breadcrumb > .active {
+  color: #999999;
+}
+
+.btn-info {
+  color: #fde4e3;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #eb1949;
+  *background-color: #eb1949;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  color: #fde4e3;
+  background-color: #38409a;
+  *background-color: #38409a;
+}
+
+.btn-info:active,
+.btn-info.active {
+  background-color: #eb1949 \9;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  z-index: 1050;
+  width: 300px;
+  margin-left: -100px;
+  background-color: #fffbf4;
+  border: 1px solid #fde4e3;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  *border: 1px solid #999;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+.modal.fade {
+  top: -25%;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+          transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+
+.modal.fade.in {
+  top: 10%;
+}
+
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #3b409a;
+}
+
+.modal-header .close {
+  margin-top: 2px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  line-height: 30px;
+}
+
+.modal-body {
+  position: relative;
+  max-height: 460px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.modal-form {
+  margin-bottom: 0;
+}
+
+.modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #fde4e3;
+  border-top: 1px solid #3b409a;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.modal-footer:after {
+  clear: both;
+}
+
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+
+.c-cta {
+  margin: 25px 0;
+}
+#testimonials {
+  position: relative;
+}
+#testimonials .carousel-indicators {
+  top: -30px;
+}
+#testimonials .carousel-indicators li {
+  background-color: #ccc;
+}
+#testimonials .carousel-indicators li.active {
+  background-color: black;
+}
+.c-product-showcase {
+  margin-bottom: 2em;
+}
+.c-product-showcase .span4 {
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 0;
+  }
+    navbar-inner {
+        background-color: #fffbf4;  
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .c-product-cta .btn-group {
+    float: none;
+  }
+  .c-product-cta .span6 {
+    margin-bottom: 2em;
+  }
+}
+
+
+div {
+    
+}
